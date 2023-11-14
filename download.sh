@@ -3,7 +3,7 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # This software may be used and distributed according to the terms of the Llama 2 Community License Agreement.
 
-read -p "Enter the URL from email: " PRESIGNED_URL
+read -p "Enter the URL from email: " https://download2.llamameta.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7InVuaXF1ZV9oYXNoIjoieTZwYTAwcTNqc3ZtMXVnamFieWF2b2p4IiwiUmVzb3VyY2UiOiJodHRwczpcL1wvZG93bmxvYWQyLmxsYW1hbWV0YS5uZXRcLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3MDAwNTU4NzV9fX1dfQ__&Signature=s3Uk2-4s-NKxtbcHg9P3SjwU25UKevon%7Ep4wg1JETcgLo0am8CuSl3uap3DO-MM2kGnzz0IPiLrH55GGUNNZmmWtSXYbb8Zrp4Sv7GlfSL6Dt6DyQAzz7YkVIgmXsh5KV3JEiye93MV5i%7EB78ijgEQ9KTT0wvWvbRXWp799w3-NFhrKDooP0zaxzGMWhqO1dBUM1vFQ%7EZdh7BBBkPzWPFUZ3z2gZQHYJkz9Be%7EY4IbVV5ehEUUgWDzFU1X1tATGtpDwuN5EXSieKcaObtg30leBpgB2-XoWYH1w4KksXlP%7E2ATqUOtquIU0c4Ncz2Y14q5WUqs-myoeybjc8OMhggw__&Key-Pair-Id=K15QRJLYKIFSLZ&Download-Request-ID=397310289285736
 echo ""
 ALL_MODELS="7b,13b,34b,7b-Python,13b-Python,34b-Python,7b-Instruct,13b-Instruct,34b-Instruct"
 read -p "Enter the list of models to download without spaces ($ALL_MODELS), or press Enter for all: " MODEL_SIZE
